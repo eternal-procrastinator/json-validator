@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+
+  #root {
+    margin: 0 auto;
+    text-align: center;
+
+    header {
+      display: flex;
+      align-items: center;
+
+      @media screen and (min-width: 800px) {
+        padding-inline: 20%;
+      }
+
+      .logo {
+        display: block;
+        width: 48px;
+        height: 48px;
+        padding: 0;
+      }
+
+      h1 {
+        @media screen and (max-width: 800px) {
+          font-size: 24px;
+        }
+      }
+    }
+
+    main {
+      padding-top: 60px;
+      height: calc(100vh - 64px);
+
+      .validator-section {
+        padding-inline: 25%;
+
+        @media screen and (max-width: 800px) {
+          padding-inline: 24px;
+
+          h3 {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
