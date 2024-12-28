@@ -8,6 +8,7 @@ import {
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/json-validator.github.io/',
   resolve: {
     alias: [
       {

@@ -5,7 +5,7 @@ import { BasePage } from 'pages/Base';
 
 export const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/json-validator.github.io/',
     element: <App />,
     children: [
       {

@@ -18,6 +18,8 @@ export function useValidator() {
     setError('');
     setCode(null);
 
+    console.log(typeof val);
+
     const validatedValue = validate(val);
     if (!validatedValue && val) {
       setError('Bad JSON');
